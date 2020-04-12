@@ -117,7 +117,7 @@
 				<key>FixSBUS</key>
 				<false/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 				<key>FixUSB</key>
@@ -135,13 +135,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					oAqTU1RBUwE=
-	   					</data>
+					<data>oAqTU1RBUwE=</data>
 					<key>Replace</key>
-					<data>
-					oAqRCv8L//8=
-	   					</data>
+					<data>oAqRCv8L//8=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -149,13 +145,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					R0ZYMA==
-	   					</data>
+					<data>R0ZYMA==</data>
 					<key>Replace</key>
-					<data>
-					SUdQVQ==
-	   					</data>
+					<data>SUdQVQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -163,13 +155,9 @@
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
-					<data>
-					SERBUw==
-	   					</data>
+					<data>SERBUw==</data>
 					<key>Replace</key>
-					<data>
-					SERFRg==
-	   					</data>
+					<data>SERFRg==</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -245,7 +233,7 @@
 		<key>#XMPDetection</key>
 		<string>-1</string>
 		<key>Arguments</key>
-		<string>debug=0x100 keepsyms=1 darkwake=10 agdpmod=pikera</string>
+		<string>debug=0x100 keepsyms=1 agdpmod=pikera slide=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -315,9 +303,7 @@
 				<key>Key</key>
 				<string>framebuffer-patch-enable</string>
 				<key>Value</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -327,9 +313,7 @@
 				<key>Key</key>
 				<string>framebuffer-stolenmem</string>
 				<key>Value</key>
-				<data>
-				AAAwAQ==
-				</data>
+				<data>AAAwAQ==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -339,9 +323,7 @@
 				<key>Key</key>
 				<string>framebuffer-fbmem</string>
 				<key>Value</key>
-				<data>
-				AACQAA==
-				</data>
+				<data>AACQAA==</data>
 			</dict>
 			<dict>
 				<key>Device</key>
@@ -351,9 +333,7 @@
 				<key>Key</key>
 				<string>framebuffer-unifiedmem</string>
 				<key>Value</key>
-				<data>
-				AAAAgA==
-				</data>
+				<data>AAAAgA==</data>
 			</dict>
 		</array>
 		<key>#DisableFunctions</key>
@@ -388,57 +368,35 @@
 				<key>#Comment</key>
 				<string>This is USB3.0</string>
 				<key>AAPL,clock-id</key>
-				<data>
-				AA==
-				</data>
+				<data>AA==</data>
 				<key>AAPL,current-available</key>
-				<data>
-				sAQ=
-				</data>
+				<data>sAQ=</data>
 				<key>AAPL,current-extra</key>
-				<data>
-				vAI=
-				</data>
+				<data>vAI=</data>
 				<key>AAPL,current-in-sleep</key>
-				<data>
-				6AM=
-				</data>
+				<data>6AM=</data>
 				<key>built-in</key>
-				<data>
-				AA==
-				</data>
+				<data>AA==</data>
 				<key>device_type</key>
 				<string>XHCI</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x19,0x0)</key>
 			<dict>
 				<key>built-in</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1a,0x0)</key>
 			<dict>
 				<key>AAPL,clock-id</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 				<key>AAPL,current-available</key>
-				<data>
-				sAQ=
-				</data>
+				<data>sAQ=</data>
 				<key>AAPL,current-extra</key>
-				<data>
-				vAI=
-				</data>
+				<data>vAI=</data>
 				<key>AAPL,current-in-sleep</key>
-				<data>
-				6AM=
-				</data>
+				<data>6AM=</data>
 				<key>built-in</key>
-				<data>
-				AA==
-				</data>
+				<data>AA==</data>
 				<key>device_type</key>
 				<string>EHCI</string>
 			</dict>
@@ -456,9 +414,7 @@
 				<key>name</key>
 				<string>AirPort Extreme</string>
 				<key>subsystem-vendor-id</key>
-				<data>
-				axAAAA==
-				</data>
+				<data>axAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x5)/Pci(0x0,0x0)</key>
 			<dict>
@@ -471,86 +427,49 @@
 				<key>name</key>
 				<string>AirPort Extreme</string>
 				<key>subsystem-vendor-id</key>
-				<data>
-				axAAAA==
-				</data>
+				<data>axAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
 			<dict>
 				<key>AAPL,clock-id</key>
-				<data>
-				Ag==
-				</data>
+				<data>Ag==</data>
 				<key>AAPL,current-available</key>
-				<data>
-				sAQ=
-				</data>
+				<data>sAQ=</data>
 				<key>AAPL,current-extra</key>
-				<data>
-				vAI=
-				</data>
+				<data>vAI=</data>
 				<key>AAPL,current-in-sleep</key>
-				<data>
-				6AM=
-				</data>
+				<data>6AM=</data>
 				<key>built-in</key>
-				<data>
-				AA==
-				</data>
+				<data>AA==</data>
 				<key>device_type</key>
 				<string>EHCI</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>#AAPL00,override-no-connect</key>
-				<data>
-				AP///////wANr2kUAAAAABYWAQSgHxF4AtFFm1lXjisj
-				UFQAAAABAQEBAQEBAQEBAQEBAQEBEhtWclAADDAQZCYA
-				Na4QAAAaDBJWclAADDAQIiYANa4QAAAaAAAA/gA3SlJU
-				OYAxNDBCR0UKAAAAAAAAQTGUAAAAAAEBCiAgAMU=
-				</data>
+				<data>AP///////wANr2kUAAAAABYWAQSgHxF4AtFFm1lXjisjUFQAAAABAQEBAQEBAQEBAQEBAQEBEhtWclAADDAQZCYANa4QAAAaDBJWclAADDAQIiYANa4QAAAaAAAA/gA3SlJUOYAxNDBCR0UKAAAAAAAAQTGUAAAAAAEBCiAgAMU=</data>
 				<key>@0,backlight-control</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>AAPL,HasLid</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>AAPL,HasPanel</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>AAPL,backlight-control</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AwBmAQ==
-				</data>
+				<data>AwBmAQ==</data>
 				<key>class-code</key>
-				<data>
-				AAADAA==
-				</data>
+				<data>AAADAA==</data>
 				<key>device-id</key>
-				<data>
-				ZgEAAA==
-				</data>
+				<data>ZgEAAA==</data>
 				<key>graphic-options</key>
-				<data>
-				DAAAAA==
-				</data>
+				<data>DAAAAA==</data>
 				<key>model</key>
 				<string>Intel HD Graphics 4000</string>
 				<key>subsystem-vendor-id</key>
-				<data>
-				axAAAA==
-				</data>
+				<data>axAAAA==</data>
 				<key>vendor-id</key>
-				<data>
-				hoAAAA==
-				</data>
+				<data>hoAAAA==</data>
 			</dict>
 		</dict>
 		<key>#SetIntelBacklight</key>
@@ -562,7 +481,7 @@
 			<key>#Inject</key>
 			<string>12</string>
 			<key>Inject</key>
-			<string>2</string>
+			<integer>2</integer>
 		</dict>
 		<key>SetIntelMaxBacklight</key>
 		<false/>
@@ -573,6 +492,8 @@
 			<key>FixOwnership</key>
 			<true/>
 			<key>HighCurrent</key>
+			<false/>
+			<key>Inject</key>
 			<false/>
 		</dict>
 		<key>UseIntelHDMI</key>
@@ -727,9 +648,11 @@
 			</array>
 		</dict>
 		<key>EmbeddedThemeType</key>
-		<string>Daytime</string>
+		<string>Dark</string>
 		<key>PlayAsync</key>
 		<false/>
+		<key>Scan</key>
+		<true/>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>ShowOptimus</key>
@@ -772,13 +695,9 @@
 		<array>
 			<dict>
 				<key>Find</key>
-				<data>
-				gAeoAqAF
-				</data>
+				<data>gAeoAqAF</data>
 				<key>Replace</key>
-				<data>
-				gAeoAjgE
-				</data>
+				<data>gAeoAjgE</data>
 			</dict>
 		</array>
 		<key>#RadeonDeInit</key>
@@ -794,12 +713,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>#Custom</key>
-			<data>
-			AP///////wAGECGSAAAAAAASAQOAIRV4CunVmVlTjigmUFQAAAAB
-			AQEBAQEBAQEBAQEBAQEB3iGgcFCEHzAgIFYAS88QAAAY3iGgcFCE
-			HzAgIFYAS88QAAAAAAAA/gBXNjU3RwAxNTRXUDEKAAAA/gAjMz1I
-			ZYSq/wIBCiAgAJo=
- 			</data>
+			<data>AP///////wAGECGSAAAAAAASAQOAIRV4CunVmVlTjigmUFQAAAABAQEBAQEBAQEBAQEBAQEB3iGgcFCEHzAgIFYAS88QAAAY3iGgcFCEHzAgIFYAS88QAAAAAAAA/gBXNjU3RwAxNTRXUDEKAAAA/gAjMz1IZYSq/wIBCiAgAJo=</data>
 			<key>#HorizontalSyncPulseWidth</key>
 			<string>0x11</string>
 			<key>#Inject</key>
@@ -833,15 +747,11 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
+				<data>RXh0ZXJuYWw=</data>
 				<key>MatchOS</key>
 				<string>All</string>
 				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
+				<data>SW50ZXJuYWw=</data>
 			</dict>
 		</array>
 		<key>#FakeCPUID</key>
@@ -857,15 +767,11 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				SGVhZHBob25lcwA=
-				</data>
+				<data>SGVhZHBob25lcwA=</data>
 				<key>Name</key>
 				<string>VoodooHDA</string>
 				<key>Replace</key>
-				<data>
-				VGVsZXBob25lcwA=
-				</data>
+				<data>VGVsZXBob25lcwA=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -883,29 +789,21 @@
 				<key>Comment</key>
 				<string>Make all drives to be internal</string>
 				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
+				<data>RXh0ZXJuYWw=</data>
 				<key>Name</key>
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
+				<data>SW50ZXJuYWw=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>TRIM function for non-Apple SSDs</string>
 				<key>Find</key>
-				<data>
-				QVBQTEUgU1NEAA==
-				</data>
+				<data>QVBQTEUgU1NEAA==</data>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAA==
-				</data>
+				<data>AAAAAAAAAAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -913,19 +811,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				AAQAAAQDAAAAAQAAIQMCBAQAAAAUAgAAAAEAAAAABAMQ
-				AAAAEAAAAAABAAAAAAAB
-				</data>
+				<data>AAQAAAQDAAAAAQAAIQMCBAQAAAAUAgAAAAEAAAAABAMQAAAAEAAAAAABAAAAAAAB</data>
 				<key>MatchOS</key>
 				<string>10.9,10.10,10.11</string>
 				<key>Name</key>
 				<string>AMD6000Controller</string>
 				<key>Replace</key>
-				<data>
-				BAAAABQCAAAAAQAAAAAEBAAEAAAEAwAAAAEAABECAQUA
-				AAAAAAAAAAAAAAAAAAAA
-				</data>
+				<data>BAAAABQCAAAAAQAAAAAEBAAEAAAEAwAAAAEAABECAQUAAAAAAAAAAAAAAAAAAAAA</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -933,17 +825,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				SEQgNnh4eA==
-				</data>
+				<data>SEQgNnh4eA==</data>
 				<key>MatchOS</key>
 				<string>10.12,10.13</string>
 				<key>Name</key>
 				<string>AMD6000Controller</string>
 				<key>Replace</key>
-				<data>
-				SEQgNjQ1MA==
-				</data>
+				<data>SEQgNjQ1MA==</data>
 			</dict>
 		</array>
 		<key>AppleIntelCPUPM</key>
@@ -968,15 +856,11 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				igKEwHRC
-				</data>
+				<data>igKEwHRC</data>
 				<key>MatchOS</key>
 				<string>10.14</string>
 				<key>Replace</key>
-				<data>
-				igKEwOtC
-				</data>
+				<data>igKEwOtC</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -984,15 +868,11 @@
 				<key>Disabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				igKEwHRE
-				</data>
+				<data>igKEwHRE</data>
 				<key>MatchOS</key>
 				<string>10.13</string>
 				<key>Replace</key>
-				<data>
-				igKEwOtE
-				</data>
+				<data>igKEwOtE</data>
 			</dict>
 		</array>
 		<key>KernelXCPM</key>
@@ -1005,9 +885,7 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g/sPDw==
-				</data>
+				<data>g/sPDw==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -1015,9 +893,7 @@
 				<key>Name</key>
 				<string>com.apple.iokit.IOUSBHostFamily</string>
 				<key>Replace</key>
-				<data>
-				g/s/Dw==
-				</data>
+				<data>g/s/Dw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1025,9 +901,7 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g+MP0w==
-				</data>
+				<data>g+MP0w==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -1035,9 +909,7 @@
 				<key>Name</key>
 				<string>com.apple.iokit.IOUSBHostFamily</string>
 				<key>Replace</key>
-				<data>
-				g+M/0w==
-				</data>
+				<data>g+M/0w==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1045,9 +917,7 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g/sPDw==
-				</data>
+				<data>g/sPDw==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -1055,9 +925,7 @@
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>
-				g/s/Dw==
-				</data>
+				<data>g/s/Dw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1065,9 +933,7 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g/8PDw==
-				</data>
+				<data>g/8PDw==</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -1075,9 +941,7 @@
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>
-				g/8/Dw==
-				</data>
+				<data>g/8/Dw==</data>
 			</dict>
 		</array>
 	</dict>
@@ -1090,9 +954,7 @@
 		<key>MLB</key>
 		<string>C02032109R5DC771H</string>
 		<key>ROM</key>
-		<data>
-		rMDdB13o
-		</data>
+		<data>rMDdB13o</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -1217,6 +1079,8 @@
 		<string>Mac-63001698E7A34814</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02951101GUKGQG1F</string>
 		<key>BoardType</key>
 		<string>10</string>
 		<key>BoardVersion</key>
@@ -1244,7 +1108,9 @@
 		<key>ProductName</key>
 		<string>iMac19,2</string>
 		<key>SerialNumber</key>
-		<string>C02Y20H4JWDW</string>
+		<string>C02ZVYYAJWDW</string>
+		<key>SmUUID</key>
+		<string>491E8CE1-F5C6-4CD7-B46B-F71AF79539EB</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
@@ -1260,6 +1126,8 @@
 		<false/>
 		<key>#NvidiaWeb</key>
 		<false/>
+		<key>CustomUUID</key>
+		<string>EF122387-2151-5514-B8C7-073B67F5D858</string>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
