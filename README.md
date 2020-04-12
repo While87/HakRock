@@ -17,3 +17,6 @@ http://cvad-mac.narod.ru/index/bootdiskutility_exe/0-5
 
 3# Restore image of MacOS from site
 https://applelife.ru/threads/bdu-macos-i-clover-iz-windows-izgotovlenie-zagruzochnoj-flehshki.37189/page-57#post-557498
+
+
+12/04/2020 FIX reboot and shutdown
